@@ -46,8 +46,10 @@ section {
 footer {
     background: #231F20;
     color: white;
+    font-size: 10px;
 }
 
 footer p {
     margin: 0;
+    padding:20px 20px 60px 20px;
 }
