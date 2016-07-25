@@ -25,6 +25,30 @@ section {
     margin: 0;
 }
 
+#section-about {
+
+}
+
+.logo-image {
+    display: block;
+    width:800px;
+    margin: -20px auto;/*change with new image*/
+}
+
+#section-about p {
+    margin: 10px 60px;
+}
+
+#section-about h3 {
+    color: #E2477F;
+}
+
+#section-about em {
+    color: #E2477F;
+    font-weight: bold;
+    font-style: normal;
+}
+
 #section-services {
     background: #4DB28A;
     margin: 0;
@@ -32,6 +56,32 @@ section {
 
 #section-my-work {
 
+}
+
+#section-my-work h3 {
+    color: #E2477F;
+}
+
+#section-my-work ul {
+    background: #FCE5EB;
+    padding: 30px;
+    width: 688px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+#section-my-work li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#section-my-work img {
+    width: 344px;
+    height: 268px;
+    margin: -2px;
+    padding: 0px;
 }
 
 #section-contact-me {
