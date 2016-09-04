@@ -93,6 +93,12 @@ section {
     margin: 0;
 }
 
+.bottom-logo {
+    display: block;
+    width:400px;
+    margin: -20px auto;/*change with new image*/
+}
+
 footer {
     background: #231F20;
     color: white;
