@@ -89,7 +89,7 @@ h2 {
     font-weight: bold;
     border: 3px solid black;
     border-radius: 20px;
-    display: inline-block;
+    display: table;/*why does this work? solves my issue with the disconnecting vertical line though...*/ 
     margin: 0px auto 0 auto;
     padding: 1px 40px;
     position: relative;
@@ -100,7 +100,7 @@ h2 {
     width: 1px;
     height: 65px;
     border-left: 3px solid black;
-    margin: 0px auto -82px auto;
+    margin: 0px auto -100px auto;
     padding: 0px;
     position: relative;
     top: -65px;
