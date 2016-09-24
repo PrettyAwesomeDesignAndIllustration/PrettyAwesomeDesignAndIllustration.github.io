@@ -51,7 +51,7 @@ nav {
 }
 nav ul {
     list-style-type: none;
-    font-size: 1.5em;
+    font-size: 24px;
     font-weight: bold;
     margin: 20px 20px;
 }
@@ -85,27 +85,26 @@ nav li a:active {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 24px;
     font-weight: bold;
     border: 3px solid black;
     border-radius: 20px;
     display: inline-block;
-    margin: -60px auto 5px auto;
+    margin: 0px auto 0 auto;
     padding: 1px 40px;
-}
-
-h3 {
-    display: block;
-    font-size: 1.17em;
-    margin: 50px 0 0 0;
-    font-weight: bold;
+    position: relative;
+    top: -65px;
 }
 
 .vertical-line {
     width: 1px;
     height: 65px;
     border-left: 3px solid black;
-    margin: -23px auto -25px auto;
+    margin: 0px auto -82px auto;
+    padding: 0px;
+    position: relative;
+    top: -65px;
+    display:block;
 }
 
 .vertical-line:after {
@@ -119,6 +118,13 @@ h3 {
     top: 60px;
     right: 6px;
     display: block;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin: 50px 0 0 0;
+    font-weight: bold;
 }
 
 .horizontal-line {
