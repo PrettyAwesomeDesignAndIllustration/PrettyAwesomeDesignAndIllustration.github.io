@@ -144,6 +144,7 @@ h3 {
     left: 53px;
     width: 30px;
     height: 0px;
+    background: black;
     border: 3px solid black;
     border-radius: 25px;
     display: block;
@@ -194,6 +195,7 @@ section {
 #section-about .horizontal-line,
 #section-about .horizontal-line:before,
 #section-about .horizontal-line:after {
+    background: #E2477F;
     border-color: #E2477F;
 }
 
@@ -226,6 +228,7 @@ section {
 #section-my-work .horizontal-line,
 #section-my-work .horizontal-line:before,
 #section-my-work .horizontal-line:after {
+    background: #E2477F;
     border-color: #E2477F;
 }
 
