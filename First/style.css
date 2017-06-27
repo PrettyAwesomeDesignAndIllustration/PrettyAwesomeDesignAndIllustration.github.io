@@ -1,0 +1,280 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+header {
+    background:white;
+    background-image: url("img/HeaderBackground.png");
+    background-position: center;
+    background-repeat: repeat-x;
+    height: 800px;
+    margin-bottom: -90px;
+}
+
+h1 {
+    /*font-family: 'Sacramento', cursive;*/
+    display:none;
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    padding: 10px;
+}
+
+/* https://css-tricks.com/three-line-menu-navicon/ */
+.burger {
+    font-size: 39px;
+    padding-left: 0.001em;
+    position: relative; 
+}
+.burger:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.21em;
+    bottom: 0.21em;
+    width: 1em;
+    background: linear-gradient(
+      to bottom, 
+      #FCE5EB, #FCE5EB 20%, 
+      transparent 20%, transparent 40%, 
+      #FCE5EB 40%, #FCE5EB 60%, 
+      transparent 60%, transparent 80%, 
+      #FCE5EB 80%, #FCE5EB 100%
+    );
+}
+nav ul {
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 20px;
+}
+
+nav li {
+    padding: 13px;
+}
+
+nav li a {
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 1px 30px;
+    min-width: 100px;
+}
+
+nav li a:link {
+    color: white;
+}
+
+nav li a:visited {
+    color: white;
+}
+
+nav li a:hover {
+    color: #4DB28A;
+}
+
+nav li a:active {
+    color: #72D3B3;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 20px;
+    display: table;/*why does this work? solves my issue with the disconnecting vertical line though...*/ 
+    margin: 0px auto 0 auto;
+    padding: 1px 40px;
+    position: relative;
+    top: -65px;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 65px;
+    border-left: 3px solid black;
+    margin: 0px auto -100px auto;
+    padding: 0px;
+    position: relative;
+    top: -65px;
+    display:block;
+}
+
+.vertical-line:after {
+    content: "";
+    position: relative;
+    padding-left: 4px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: black;
+    top: 60px;
+    right: 6px;
+    display: block;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin: 50px 0 0 0;
+    font-weight: bold;
+}
+
+.horizontal-line {
+    width: 260px;
+    height: 0px;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin: 5px auto 40px auto;
+    position: relative;
+    left: -90px;
+}
+
+.horizontal-line:before {
+    content: "";
+    position: relative;
+    top: 10px;
+    left: 53px;
+    width: 30px;
+    height: 0px;
+    background: black;
+    border: 3px solid black;
+    border-radius: 25px;
+    display: block;
+    margin: 0px auto;
+}
+
+.horizontal-line:after {
+    content: "";
+    position: relative;
+    top: 4px;
+    left: 200px;
+    width: 240px;
+    height: 0px;
+    border: 3px solid black;
+    border-radius: 25px;
+    display: block;
+    margin: 0px auto;
+}
+
+section {
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+#section-about {
+
+}
+
+.logo-image {
+    display: block;
+    width:800px;
+    margin: -45px auto;/*change with new image*/
+}
+
+#section-about h2 {
+    color: white;
+    border-color: white;
+}
+
+#section-about .vertical-line {
+    border-color: white;
+}
+
+#section-about .vertical-line:after {
+    background: white;
+}
+
+#section-about .horizontal-line,
+#section-about .horizontal-line:before,
+#section-about .horizontal-line:after {
+    background: #E2477F;
+    border-color: #E2477F;
+}
+
+#section-about p {
+    margin: 10px 60px;
+}
+
+#section-about h3 {
+    color: #E2477F;
+}
+
+#section-about em {
+    color: #E2477F;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#section-services {
+    background: #4DB28A;
+}
+
+#section-my-work {
+
+}
+
+#section-my-work h3 {
+    color: #E2477F;
+}
+
+#section-my-work .horizontal-line,
+#section-my-work .horizontal-line:before,
+#section-my-work .horizontal-line:after {
+    background: #E2477F;
+    border-color: #E2477F;
+}
+
+#section-my-work ul {
+    background: #FCE5EB;
+    padding: 30px;
+    width: 688px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+#section-my-work li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#section-my-work img {
+    width: 344px;
+    height: 268px;
+    margin: -2px;
+    padding: 0px;
+}
+
+#section-contact-me {
+    background: #C93B4C;
+}
+
+#section-contact-me form {
+    margin: 0;
+}
+
+.bottom-logo {
+    display: block;
+    width:400px;
+    margin: -20px auto;/*change with new image*/
+}
+
+footer {
+    background: #231F20;
+    color: white;
+    font-size: 10px;
+}
+
+footer p {
+    margin: 0;
+    padding:20px 20px 60px 20px;
+}
