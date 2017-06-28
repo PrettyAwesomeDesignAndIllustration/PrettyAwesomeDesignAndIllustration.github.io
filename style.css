@@ -1,0 +1,19 @@
+body {
+    background-color: #795279;
+    background-image: url("img/background-tile.png");
+    background-repeat: repeat-x;
+}
+
+header {
+    background-image: url("img/cloud.svg");
+    background-size: 1328px 609px;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    height:200px;
+}
+
+.main {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding:10px;
+}
