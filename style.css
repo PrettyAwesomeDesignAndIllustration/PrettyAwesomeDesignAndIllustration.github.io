@@ -4,12 +4,29 @@ body {
     background-repeat: repeat-x;
 }
 
-header {
-    background-image: url("img/cloud.svg");
-    background-size: 1328px 609px;
-    background-position: 50% 0%;
-    background-repeat: no-repeat;
-    height:200px;
+.header-logo {
+  width:100px;
+}
+.header-cat {
+  width:100px;
+}
+.header-avatar {
+  width:100px;
+}
+.header-tablet {
+  width:100px;
+}
+.small-star {
+  width:100px;
+}
+.medium-star {
+  width:100px;
+}
+.large-star {
+  width:100px;
+}
+.cloud {
+  width:100px;
 }
 
 .main {
