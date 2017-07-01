@@ -2,31 +2,68 @@ body {
     background-color: #795279;
     background-image: url("img/background-tile.png");
     background-repeat: repeat-x;
+    margin:0px;
+}
+
+header {
+  margin-left:auto;
+  margin-right:auto;
+  position: relative;
+  width: 800px;
+  height: 350px;
+  overflow: hidden;
+  background-color: black;
 }
 
 .header-logo {
-  width:100px;
+  position:absolute;
+  top: 0px;
+  left: -13px;
+  width: 450px;
 }
 .header-cat {
-  width:100px;
+  position:absolute;
+  right: -38px;
+  bottom: 10px; 
+  height:300px;
 }
 .header-avatar {
-  width:100px;
+  position:absolute;
+  right: 50px;
+  bottom: 65px;
+  height:320px;
 }
 .header-tablet {
-  width:100px;
+  position:absolute;
+  right: 157px;
+  bottom: 67px;
+  height:150px;
 }
 .small-star {
-  width:100px;
+  position:absolute;
+  right: 0px;
+  top: 0px;
+  width:50px;
 }
 .medium-star {
-  width:100px;
+  position:absolute;
+  right: 0px;
+  top: 0px;
+  width:75px;
 }
 .large-star {
+  position:absolute;
+  right: 0px;
+  top: 0px;
   width:100px;
 }
+
 .cloud {
-  width:100px;
+  width: 600px;
+  height: 275px;
+  position:absolute;
+  bottom: -114px;
+  right: -110px;
 }
 
 .main {
