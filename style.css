@@ -1,73 +1,155 @@
 body {
-    background-color: #795279;
-    background-image: url("img/background-tile.png");
-    background-repeat: repeat-x;
-    margin:0px;
+  background-color: #795279;
+  background-image: url("img/background-tile.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+  margin: 0px;
 }
 
 header {
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   width: 800px;
   height: 350px;
-  overflow: hidden;
-  background-color: black;
 }
 
 .header-logo {
-  position:absolute;
+  position: absolute;
   top: 0px;
   left: -13px;
   width: 450px;
 }
+
 .header-cat {
-  position:absolute;
+  position: absolute;
   right: -38px;
-  bottom: 10px; 
-  height:300px;
+  bottom: 10px;
+  height: 300px;
 }
+
 .header-avatar {
-  position:absolute;
+  position: absolute;
   right: 50px;
   bottom: 65px;
-  height:320px;
+  height: 320px;
 }
+
 .header-tablet {
-  position:absolute;
+  position: absolute;
   right: 157px;
   bottom: 67px;
-  height:150px;
+  height: 150px;
 }
-.small-star {
-  position:absolute;
-  right: 0px;
-  top: 0px;
-  width:50px;
-}
+
 .medium-star {
-  position:absolute;
-  right: 0px;
-  top: 0px;
-  width:75px;
+  position: absolute;
+  right: -32px;
+  bottom: 176px;
+  width: 20px;
 }
+
 .large-star {
-  position:absolute;
-  right: 0px;
-  top: 0px;
-  width:100px;
+  position: absolute;
+  right: 50px;
+  bottom: 295px;
+  width: 40px;
 }
 
 .cloud {
   width: 600px;
   height: 275px;
-  position:absolute;
-  bottom: -114px;
-  right: -110px;
+  margin-bottom: -114px;
+  margin-right: -110px;
+}
+
+.cloud-wrapper {
+  overflow: hidden;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+header nav {
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0px 20px;
+  padding: 0px;
+}
+
+header nav ul li {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  padding: 8px 0px;
+  width: 300px;
+  margin: 0px;
+}
+
+header nav ul li+li {
+  border-top: 1px dashed #FFFFFF;
+}
+
+header nav a {
+  color: #FFFFFF;
+  text-decoration: inherit;
 }
 
 .main {
-    background: #FFFFFF;
-    border-radius: 10px;
-    padding:10px;
+  background: #FFFFFF;
+  border-radius: 10px 0px 10px 10px;
+  padding: 10px;
+  width: 780px;
+  margin: 0px auto;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #382127;
+  height:200px;
+}
+
+.footer-logo {
+  display: block;
+  margin: 0px auto;
+  width: 800px;
+}
+
+footer p {
+  text-align: center;
+  margin:-50px 0px 0px 0px;
+  padding: 0px;
+  color: #382127;
+}
+
+footer p:hover {
+  color: white;
+}
+
+footer a {
+  color: #382127;
+}
+
+
+footer p:hover a {
+  color: inherit;
+}
+
+footer p:hover a:link {
+  color: blue;
+}
+
+footer p:hover a:hover,
+footer p:hover a:visited {
+  color: purple;
+}
+
+footer p:hover a:active {
+  color: darkred;
 }
