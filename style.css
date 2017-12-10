@@ -4,6 +4,17 @@ body {
   background-repeat: repeat-x;
   background-size: contain;
   margin: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+em {
+  font-style: normal;
+  font-weight: bold;
 }
 
 header {
@@ -11,12 +22,12 @@ header {
   margin-right: auto;
   position: relative;
   width: 800px;
-  height: 350px;
+  height: 500px;
 }
 
 .header-logo {
   position: absolute;
-  top: 0px;
+  top: 50px;
   left: -13px;
   width: 450px;
 }
