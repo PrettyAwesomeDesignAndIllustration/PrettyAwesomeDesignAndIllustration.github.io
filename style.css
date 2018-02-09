@@ -50,22 +50,64 @@ header {
 .header-tablet {
   position: absolute;
   right: 157px;
-  bottom: 50px;
+  bottom: 40px;
   height: 150px;
 }
 
-.medium-star {
+.star-1 {
   position: absolute;
-  right: -32px;
-  bottom: 92px;
+  left: 60px;
+  bottom: 278px;
   width: 20px;
 }
 
-.large-star {
+.star-2 {
+  position: absolute;
+  left: 150px;
+  top: 20px;
+  width: 40px;
+}
+
+.star-3 {
+  position: absolute;
+  left: 300px;
+  top: 20px;
+  width: 30px;
+}
+
+.star-4 {
+  position: absolute;
+  left: 400px;
+  top: 100px;
+  width: 20px;
+}
+
+.star-5 {
+  position: absolute;
+  right: 350px;
+  bottom: 230px;
+  width: 30px;
+}
+
+.star-6 {
+  position: absolute;
+  right: 250px;
+  bottom: 200px;
+  width: 40px;
+}
+
+.star-7 {
   position: absolute;
   right: 50px;
   bottom: 278px;
   width: 40px;
+}
+
+.star-8 {
+  position: absolute;
+  right: -32px;
+  bottom: 160px;
+  width: 20px;
 }
 
 .cloud {
