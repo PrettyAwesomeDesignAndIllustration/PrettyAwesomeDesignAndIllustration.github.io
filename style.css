@@ -1,10 +1,11 @@
 body {
   background-color: #795279;
-  background-image: url("img/background-tile.png");
-  background-repeat: repeat-x;
-  background-size: contain;
+  background-image: url("img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0px;
   font-family: 'Raleway', sans-serif;
+  color: #3c2037;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -35,43 +36,43 @@ header {
 .header-cat {
   position: absolute;
   right: -38px;
-  bottom: 10px;
+  bottom: -7px;
   height: 300px;
 }
 
 .header-avatar {
   position: absolute;
   right: 50px;
-  bottom: 65px;
+  bottom: 48px;
   height: 320px;
 }
 
 .header-tablet {
   position: absolute;
   right: 157px;
-  bottom: 67px;
+  bottom: 50px;
   height: 150px;
 }
 
 .medium-star {
   position: absolute;
   right: -32px;
-  bottom: 176px;
+  bottom: 92px;
   width: 20px;
 }
 
 .large-star {
   position: absolute;
   right: 50px;
-  bottom: 295px;
+  bottom: 278px;
   width: 40px;
 }
 
 .cloud {
   width: 600px;
   height: 275px;
-  margin-bottom: -114px;
-  margin-right: -110px;
+  margin-bottom: -131px;
+  margin-right: -31px;
 }
 
 .cloud-wrapper {
@@ -83,7 +84,7 @@ header {
 
 header nav {
   position: absolute;
-  bottom: 30px;
+  bottom: 100px;
   left: 0px;
 }
 
@@ -95,9 +96,9 @@ header nav ul {
 
 header nav ul li {
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 22px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: lighter;
+  font-weight: bold;
   padding: 8px 0px;
   width: 300px;
   margin: 0px;
@@ -115,9 +116,54 @@ header nav a {
 .main {
   background: #FFFFFF;
   border-radius: 10px 0px 10px 10px;
-  padding: 10px;
-  width: 780px;
+  padding: 50px 100px;
+  width: 600px;
   margin: 0px auto;
+}
+
+.social {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding:30px;
+}
+
+.social li {
+  display: inline;
+}
+
+.social a {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #6FCCBB;
+  background-color: #6FCCBB;
+  display: inline-block;
+  background-size: contain;
+  background-origin: padding-box;
+  padding:0px;
+}
+
+.social a.facebook {
+  background-image: url(img/button_facebook.png);
+}
+
+.social a.instagram {
+  background-image: url(img/button_instagram.png);
+}
+
+.social a.behance {
+  background-image: url(img/button_behance.png);
+}
+
+.social a.youtube {
+  background-image: url(img/button_youtube.png);
+}
+
+.social a.twinefm {
+  background-image: url(img/button_twine_fm.png);
 }
 
 footer {
